@@ -1,0 +1,22 @@
+{
+    "name": "reisraff/phulp-angular-filesort",
+    "description": "The angular-filesort addon for phulp",
+    "keywords": ["phulpplugin", "phulp", "php", "angular-filesort"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Reis",
+            "email": "reisraff@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Phulp\\AngularFileSort\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "reisraff/phulp" : "~1.7"
+    }
+}
