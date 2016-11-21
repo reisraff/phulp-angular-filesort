@@ -1,6 +1,6 @@
 <?php
 
-namespace AngularFileSort;
+namespace Phulp\AngularFileSort;
 
 use Phulp\DistFile;
 use Phulp\PipeInterface;
